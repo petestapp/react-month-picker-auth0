@@ -29,4 +29,4 @@ npm run client
 
 ## STRETCH GOALS
 
-- Move the header into it's own component as a child of App. Keep the data in App.js.
+- Move the header into it's own component, `Header` as a child of App. Keep the data in App.js.
