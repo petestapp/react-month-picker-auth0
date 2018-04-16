@@ -20,7 +20,7 @@ npm run client
 ## BASE MODE
 
 - Use `axios` to retrieve (`GET`) data from `/calendar` and store it in `App.js`. `/calendar` returns an array of calendar month names and ids.
-- Create a new **component**'s for `MonthList` and `MonthItem.js`.
+- Create new **component**'s for `MonthList` and `MonthItem.js`. `MonthItem` should be the Month to display, `MonthList` should be handling the making of each `MonthItem`.
 - When a month is clicked on, display that month in the **header** at the top of the page.
 
 ### Mockup
@@ -29,4 +29,4 @@ npm run client
 
 ## STRETCH GOALS
 
-- Move the header into it's own component.
+- Move the header into it's own component as a child of App. Keep the data in App.js.
