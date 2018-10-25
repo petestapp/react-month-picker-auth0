@@ -19,11 +19,13 @@ npm run client
 
 ## BASE MODE
 
+This app will display a list of months on the page. When one is clicked, it will also display in the page header.
+
+### Details
+
 - Use `axios` to retrieve (`GET`) data from `/calendar` and store it in `App.js`. `/calendar` returns an array of calendar month names and ids.
-- When a month is clicked on, display that month in the **header** at the top of the page.
 - Create a new component for the list of months called `MonthList`.
-- Move the header into it's own component, `Header` as a child of App. `Header` should display the month that was just clicked. Keep the data in App.js.
-- Create a new component called `MonthItem`. `MonthList` should be handling the making of each `MonthItem` (creating a `MonthItem` for each month).
+- Move the header into it's own component, `Header`, as a child of App. `Header` should display the month that was just clicked. Keep the data in App.js.
 
 ### Mockup
 
