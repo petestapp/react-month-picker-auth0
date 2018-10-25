@@ -30,3 +30,8 @@ This app will display a list of months on the page. When one is clicked, it will
 ### Mockup
 
 ![Base Mode Mockup](wireframes/code-challenge-4-video.gif)
+
+
+## STRETCH GOALS
+
+- Create a new component called `MonthItem`. `MonthItem` should be the Month to display. `MonthList` should be handling the making of each `MonthItem` (creating a `MonthItem` for each month).
