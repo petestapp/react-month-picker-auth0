@@ -1,11 +1,11 @@
-var express = require('express');
-var router = express.Router();
-var monthItems = require('../modules/calendar.data');
+const express = require('express');
+const router = express.Router();
+const monthItems = require('../modules/calendar.data');
 
 // DO NOT MODIFY THIS FILE
 
 // GET Route
-router.get('/', function (req, res) {
+router.get('/',  (req, res) => {
     res.send(monthItems);
 }); // END GET Route
 
