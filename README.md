@@ -1,6 +1,6 @@
-# Code Challenge 6
+# Code Challenge 4
 
-Before you get started make sure to look through the code that has been provided. Server side code to retrieve data (`GET`) has been provided for you. For this code challenge, you should only modfiy or add files in the `src` folder.
+Before you get started make sure to look through the code that has been provided. Server side code to retrieve data (`GET`) has been provided for you. For this code challenge, you should only modify or add files in the `src` folder.
 
 ### Setup
 
@@ -25,7 +25,7 @@ npm run client
 
 ### Mockup
 
-![Base Mode Mockup](wireframes/code-challenge-6-video.gif)
+![Base Mode Mockup](wireframes/code-challenge-4-video.gif)
 
 ## STRETCH GOALS
 
