@@ -24,14 +24,11 @@ This app will display a list of months on the page. When one is clicked, it will
 ### Details
 
 - Use `axios` to retrieve (`GET`) data from `/calendar` and store it in `App.js`. `/calendar` returns an array of calendar month names and ids.
-- Create a new component for the list of months called `MonthList`.
+- Create a new component called `MonthItem`. `MonthItem` should be the Month to display.
+- Create a new component for the list of months called `MonthList`. `MonthList` should be handling the making of each `MonthItem` (creating a `MonthItem` for each month).
 - Move the header into it's own component, `Header`, as a child of App. `Header` should display the month that was just clicked. Keep the data in App.js.
 
 ### Mockup
 
 ![Base Mode Mockup](wireframes/code-challenge-4-video.gif)
 
-
-## STRETCH GOALS
-
-- Create a new component called `MonthItem`. `MonthItem` should be the Month to display. `MonthList` should be handling the making of each `MonthItem` (creating a `MonthItem` for each month).
