@@ -31,7 +31,7 @@ This app will display a list of months on the page. When one is clicked, it will
 
 ### Base Mode Mockup
 
-![pic with alert](none.gif)
+![pic with alert](https://imgur.com/wWKfy5H)
 
 
 ## STRETCH FEATURE
