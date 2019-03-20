@@ -31,8 +31,9 @@ This app will display a list of months on the page. When one is clicked, it will
 
 ### Base Mode Mockup
 
-![pic with alert](https://imgur.com/wWKfy5H)
+![Base Mode Mockup](wireframes/base-solution.gif)
 
+---
 
 ## STRETCH FEATURE
 
@@ -40,4 +41,4 @@ This app will display a list of months on the page. When one is clicked, it will
 
 ### Stretch Mode Mockup
 
-![Base Mode Mockup](wireframes/solution.gif)
+![Stretch Mode Mockup](wireframes/stretch-solution.gif)
