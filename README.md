@@ -19,7 +19,7 @@ npm run client
 
 ## BASE MODE
 
-This app will display a list of months on the page. When one is clicked, it will also display in the page header.
+This app will display a list of months on the page. When a month is clicked, it will show an alert of the month name to the user.
 
 ### Details
 
