@@ -2,10 +2,14 @@ import {useState} from "react";
 
 function MonthItem(props){
     //const[name, setName] = useState(null);
+    const showAlert=()=>{
+        console.log('in showAlert');
+        alert(props.month.name);
+    }
+
     return(
         <div>
-            <h1>MonthItem</h1>
-            <p>props: {JSON.stringify(props)}</p>
+            <li onClick={showAlert}>{props.month.name}</li>
         </div>
     )
 }
