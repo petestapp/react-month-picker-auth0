@@ -3,7 +3,17 @@ import axios from 'axios';
 import './App.css';
 
 function App() {
+  const[months, setMonths]=useState([]);
 
+  const getMonths=()=>{
+    axios.get('/calender').then((response)=>{
+      setMonths(response.data);
+    }).catch((err)=>{
+      console.log(err);
+      alert(`error getting months`);
+    })
+  }
+  
   return (
     <div className="App">
       <header className="App-header">
