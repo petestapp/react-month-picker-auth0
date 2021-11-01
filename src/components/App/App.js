@@ -7,7 +7,7 @@ function App() {
   useEffect(()=>{
     console.log(`component loaded`);
     getMonths();
-  })
+  }, [])
   const[months, setMonths]=useState([]);
 
   const getMonths=()=>{
